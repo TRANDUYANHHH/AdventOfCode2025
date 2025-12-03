@@ -26,7 +26,6 @@ long long F(string s){
     }
     cur = 1 - cur;
   }
-  cout << dp[1 - cur][12] << '\n';
   return dp[1 - cur][12];
 }
 
